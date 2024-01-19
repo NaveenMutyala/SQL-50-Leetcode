@@ -1,0 +1,4 @@
+select product_name,year,price
+from Sales
+Left Join Product
+on Sales.Product_id = Product.product_id
